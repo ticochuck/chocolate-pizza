@@ -1,5 +1,106 @@
-h1 {
-  color: red;
+html {
+  width: 960px;
+  margin: 25px;
 }
 
+
+#headerLeft {
+  display: inline;
+}
+
+#headerP1 {
+  margin-left: 5px;
+  position: absolute;
+  display: inline;
+  font-family: cursive;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#headerP2 {
+  margin-left: 5px;
+  display: inline;
+  color: gray;
+  font-size: 14px;
+}
+
+#headerImages {
+  display: inline-block;
+  float: right;
+  vertical-align: middle;
+}
+
+li {
+  display: inline;
+  vertical-align: middle;
+}
+
+#rssImage {
+  margin-left: 10px;
+}
+
+#test {
+  display: block;
+  margin-top: 20px;
+  background-color: lightgrey;
+}
+.lineAcross {
+  display: inline-block;
+}
+
+#mainTop {
+  display: block;
+  margin-top: 35px;
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif}
+
+h2 {
+  color: lightgray;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  display: inline-block;
+}
+
+#printWord {
+  position: relative;
+  color: lightgray;
+  float: right;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+#printLogo {
+  position: relative;
+  display: inline-block;
+  float: right;
+  vertical-align: middle;
+}
+#mainImage {
+  background-color: black;
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#mainText p{
+  margin-top: 10px;
+}
+
+#checkList {
+  margin-top: 35px;
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footerLine {
+  margin-top: 25px;
+  background-color: lightgray;
+}
 
