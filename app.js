@@ -1,6 +1,7 @@
 'use strict';
 
-var lineAcross = document.getElementById('lineAcross');
-var lineEl = document.createElement('p');
-lineEl.textContent(HOLA);
-lineAcross.appendChild(lineEl);
+var img = new Image();
+img.src = "./img/hr-img.png"
+for (var i = 0; i < 10; i++) {      
+   document.body.appendChild(img)
+}
