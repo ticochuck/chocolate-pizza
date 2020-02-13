@@ -1,8 +1,9 @@
 html {
   width: 960px;
-  margin: 25px;
+  margin-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 
 #headerLeft {
   display: inline;
@@ -12,8 +13,8 @@ html {
   margin-left: 5px;
   position: absolute;
   display: inline;
-  font-family: cursive;
-  font-size: 24px;
+  font-family: 'Yellowtail', cursive;
+  font-size: 34px;
   font-weight: bold;
 }
 
@@ -22,6 +23,7 @@ html {
   display: inline;
   color: gray;
   font-size: 14px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #headerImages {
@@ -44,6 +46,7 @@ li {
   margin-top: 20px;
   background-color: lightgrey;
 }
+
 .lineAcross {
   display: inline-block;
 }
@@ -54,9 +57,10 @@ li {
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 44px;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif}
+  font-family: 'Oswald', sans-serif;
+}
 
 h2 {
   color: lightgray;
@@ -78,29 +82,93 @@ h2 {
   position: relative;
   display: inline-block;
   float: right;
+  padding-top: 4px;
   vertical-align: middle;
 }
 #mainImage {
-  background-color: black;
   width: 100%;
   margin-top: 25px;
   margin-bottom: 25px;
+  background-size: cover;
 }
 
 #mainText p{
   margin-top: 10px;
+  font-size: 22px;
 }
 
 #checkList {
   margin-top: 35px;
   display: block;
-  width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+#aboutVanessa{
+  display: block;
+}
+
+#vanessaInfo {
+  margin-top: 35px;
+}
+
+#vanessaPic {
+  display: inline;
+}
+
+#vanessaName {
+  margin-left: 5px;
+  position: absolute;
+  display: inline;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#vanessaProfile {
+  margin-left: 5px;
+  display: inline;
+  color: black;
+  font-size: 18px;
+  width: 600px;
+}
+
+#shareText {
+  display: inline;
+  width: 145px;
+  height: 30px;
+  background-color: rgb(219, 66, 66);
+  float: right;
+  vertical-align: middle;
+  padding-top: 15px;
+  text-align: center;
+  color: white;
+}
+
+footer{
+  width: 100%;
+  height: 100px;
+  margin-top: 35px;
+  display: block;
 }
 
 #footerLine {
+  position: relative;
   margin-top: 25px;
+  height: 1px;
   background-color: lightgray;
 }
 
+#smallLogo {
+  margin-top: 35px;
+  display: block;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 35px;
+}
+
+.footerText{
+  width: 100%;
+  text-align: center;
+}
